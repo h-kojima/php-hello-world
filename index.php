@@ -1,11 +1,12 @@
 <?php
-echo "<h1>Hello OpenShift 1999-01-20<h1>";
-echo "Greetings:";
-echo getenv("GREETINGS");
+echo "Hello Docker 2017-02-03";
 echo "<br>";
-
-echo "Container Name: ";
+echo "<br>";
+echo "Host Name: ";
 echo gethostname();
+echo "<br>";
+echo "Host IP: ";
+echo $_SERVER["SERVER_ADDR"];
 echo "<br>";
 echo "Client IP: ";
 echo $_SERVER["REMOTE_ADDR"];
