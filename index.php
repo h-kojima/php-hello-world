@@ -1,5 +1,5 @@
 <?php
-echo "Hello Docker 2017-02-03";
+echo "Hello Docker 2017-02-07";
 echo "<br>";
 echo "<br>";
 echo "Host Name: ";
